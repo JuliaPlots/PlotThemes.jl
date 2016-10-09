@@ -33,8 +33,20 @@ dist = Gamma(2)
 gp = scatter(dist, leg=false)
 bar!(dist, func=cdf, alpha=0.3)
 
-# put them all together in a 3x2 grid
-plot(mp, cp, cp2, vp, np, gp, layout=(3,2))
+# Regular line plot
+lp = plot(cumsum(randn(30,5)).^2,lw=1.5, xlabel = "the x's", ylabel = "the y's")
+
+# Open-High-Low-Close plot
+n = 20
+hgt = rand(n) + 1
+bot = randn(n)
+openpct = rand(n)
+closepct = rand(n)
+y = OHLC[(openpct[i] * hgt[i] + bot[i],bot[i] + hgt[i],bot[i],closepct[i] * hgt[i] + bot[i]) for i = 1:n]
+oh = ohlc(y)
+
+# put them all together in a 4x2 grid
+plot(mp, cp, cp2, vp, np, gp, lp, oh, layout=(4,2))
 ```
 
 ![](https://cloud.githubusercontent.com/assets/8431156/19215305/8931f030-8d9a-11e6-9b15-011c19ff7456.png)
@@ -42,3 +54,9 @@ plot(mp, cp, cp2, vp, np, gp, layout=(3,2))
 Or using the `:sand` theme.
 
 ![](https://cloud.githubusercontent.com/assets/8431156/19215525/02fbf8f6-8da1-11e6-9ef8-09d74fc802a0.png)
+
+# Solarized
+
+![](https://cloud.githubusercontent.com/assets/8431156/19223436/2bd5ee4c-8e70-11e6-92ad-ae1f52d57c8e.png)
+
+![](https://cloud.githubusercontent.com/assets/8431156/19223437/2bd8cac2-8e70-11e6-8de7-e33a617c07e5.png)
