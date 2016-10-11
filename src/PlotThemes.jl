@@ -32,11 +32,11 @@ function add_plots_theme(s, theme)
     end
 end
 
-function plot_theme(s)
+function theme(s)
     PlotUtils._default_gradient[] = s
     Plots.set_theme(s)
 end
-
+include("deprecations.jl")
 include("dark.jl")
 include("ggplot2.jl")
 include("solarized.jl")
