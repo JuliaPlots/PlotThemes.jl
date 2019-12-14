@@ -37,37 +37,43 @@ theme(thm::Symbol; kwargs...)
 Themes can be previewed using `Plots.showtheme(thm::Symbol)`:
 
 ### `:default`
-![theme_default](https://user-images.githubusercontent.com/16589944/34177593-6a39d112-e504-11e7-9cff-5b18c8caf887.png)
+![default](assets/default.png)
 
 ### `:dark`
-![theme_dark](https://user-images.githubusercontent.com/16589944/34177596-6d25b79c-e504-11e7-816f-9a1adbda41c2.png)
+![dark](assets/dark.png)
 
 ### `:ggplot2`
-![theme_ggplot2](https://user-images.githubusercontent.com/16589944/34177605-7160e6a6-e504-11e7-9c46-8dbc65b7daf3.png)
+![ggplot2](assets/ggplot2.png)
 
 ### `:juno`
-![theme_juno](https://user-images.githubusercontent.com/16589944/34177629-7d60212e-e504-11e7-832a-abadd22138ce.png)
+![juno](assets/juno.png)
 
 ### `:lime`
-![theme_lime](https://user-images.githubusercontent.com/16589944/34177613-7586877c-e504-11e7-948a-32f0f96d947e.png)
+![lime](assets/lime.png)
 
 ### `:orange`
-![theme_orange](https://user-images.githubusercontent.com/16589944/34177643-88c543c8-e504-11e7-8622-abd166f73e68.png)
+![orange](assets/orange.pngg)
 
 ### `:sand`
-![theme_sand](https://user-images.githubusercontent.com/16589944/34177640-86233cec-e504-11e7-9046-841a40877d7b.png)
+![sand](assets/sand.png)
 
 ### `:solarized`
-![theme_solarized](https://user-images.githubusercontent.com/16589944/34177636-83a6664c-e504-11e7-89f4-2fb350fdec15.png)
+![solarized](assets/solarized.png)
 
 ### `:solarized_light`
-![theme_solarized_light](https://user-images.githubusercontent.com/16589944/34177634-803e867e-e504-11e7-8a09-50ec09b3112d.png)
+![solarized_light](assets/solarized_light.png)
 
 ### `:wong`
-![theme_wong](https://user-images.githubusercontent.com/16589944/34177654-90f2c4da-e504-11e7-8c4e-1f02b9fa7a21.png)
+![wong](assets/wong.png)
 
 ### `:wong2`
-![theme_wong2](https://user-images.githubusercontent.com/16589944/34177647-8bd7d116-e504-11e7-81a4-6ef7ccb0a7ed.png)
+![wong2](assets/wong2.png)
+
+### `:gruvbox_dark`
+![gruvbox_dark](assets/gruvbox_dark.png)
+
+### `:gruvbox_light`
+![gruvbox_light](assets/gruvbox_light.png)
 
 ## Contributing
 A theme specifies default values for different Plots [attributes](http://docs.juliaplots.org/attributes/).
@@ -77,3 +83,5 @@ PRs for new themes very welcome! Adding a new theme (e.g. `mytheme`) is as easy 
 _themes[:mytheme] = PlotTheme(; kwargs...)
 ```
 The keyword arguments can be any collection of Plots attributes plus a colorgradient keyword argument.
+When adding a new theme please also generate a `showtheme` image in `assets/` and add a corresponding entry to the README.
+New `showtheme` images can be generated with `update_theme` in `assets/update_themes.jl`.
