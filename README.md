@@ -84,6 +84,26 @@ Themes can be previewed using `Plots.showtheme(thm::Symbol)`:
 ### `:mute`
 ![theme_mute](https://user-images.githubusercontent.com/16589944/70848069-9860bf80-1e6c-11ea-9cac-8a797d526835.png)
 
+### `:seaborn_deep`
+![theme_seaborn_deep](https://user-images.githubusercontent.com/24591123/78098111-17c4cf80-7419-11ea-9636-c1a45c054b31.png)
+
+### Additional seaborn themes (all credit goes to https://seaborn.pydata.org/index.html)
+
+### `:seaborn_bright`
+![theme_seaborn_bright](https://user-images.githubusercontent.com/24591123/78098104-14314880-7419-11ea-856d-10d3b7919179.png)
+
+### `:seaborn_dark`
+![theme_seaborn_dark](https://user-images.githubusercontent.com/24591123/78098106-15627580-7419-11ea-9e4b-8a5659e7003e.png)
+
+### `:seaborn_colorblind`
+![theme_seaborn_colorblind](https://user-images.githubusercontent.com/24591123/78098107-15fb0c00-7419-11ea-8e86-a8bd3e9e44a0.png)
+
+### `:seaborn_pastel`
+![theme_seaborn_pastel](https://user-images.githubusercontent.com/24591123/78098108-1693a280-7419-11ea-84a3-4f4db4b5275a.png)
+
+### `:seaborn_muted`
+![theme_seaborn_muted](https://user-images.githubusercontent.com/24591123/78098109-172c3900-7419-11ea-8aec-56109c216c22.png)
+
 
 ## Contributing
 A theme specifies default values for different Plots [attributes](http://docs.juliaplots.org/attributes/).

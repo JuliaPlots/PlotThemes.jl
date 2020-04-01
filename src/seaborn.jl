@@ -39,53 +39,63 @@ const seaborn_colorblind6=[colorant"#0173b2", colorant"#029e73", colorant"#d55e0
                            colorant"#cc78bc", colorant"#ece133", colorant"#56b4e9"]
 
 
+include("seaborn_color_gradients.jl")
 
 _themes[:seaborn_deep] = PlotTheme(
     palette = expand_palette(colorant"white", seaborn_deep),
-    colorgradient = cgrad(:viridis).colors,
+    colorgradient = seaborn_rocket_gradient,
 )
 
 _themes[:seaborn_deep6] = PlotTheme(
     palette = expand_palette(colorant"white", seaborn_deep6),
-    colorgradient = cgrad(:viridis).colors,
+    colorgradient = seaborn_rocket_gradient,
 )
 
 _themes[:seaborn_muted] = PlotTheme(
     palette = expand_palette(colorant"white", seaborn_muted),
-    colorgradient = cgrad(:viridis).colors,
+    colorgradient = seaborn_rocket_gradient,
 )
 
 _themes[:seaborn_muted6] = PlotTheme(
     palette = expand_palette(colorant"white", seaborn_muted6),
-    colorgradient = cgrad(:viridis).colors,
+    colorgradient = seaborn_rocket_gradient,
 )
 
 _themes[:seaborn_pastel] = PlotTheme(
     palette = expand_palette(colorant"white", seaborn_pastel6),
-    colorgradient = cgrad(:viridis).colors,
+    colorgradient = seaborn_rocket_gradient,
 )
 
 _themes[:seaborn_pastel6] = PlotTheme(
     palette = expand_palette(colorant"white", seaborn_pastel6),
-    colorgradient = cgrad(:viridis).colors,
+    colorgradient = seaborn_rocket_gradient,
 )
 
+_themes[:seaborn_bright] = PlotTheme(
+    palette = expand_palette(colorant"white", seaborn_bright),
+    colorgradient = seaborn_rocket_gradient,
+)
+
+_themes[:seaborn_bright6] = PlotTheme(
+    palette = expand_palette(colorant"white", seaborn_bright6),
+    colorgradient = seaborn_rocket_gradient,
+)
 _themes[:seaborn_dark] = PlotTheme(
     palette = expand_palette(colorant"white", seaborn_dark),
-    colorgradient = cgrad(:viridis).colors,
+    colorgradient = seaborn_rocket_gradient,
 )
 
 _themes[:seaborn_dark6] = PlotTheme(
     palette = expand_palette(colorant"white", seaborn_dark6),
-    colorgradient = cgrad(:viridis).colors,
+    colorgradient = seaborn_rocket_gradient,
 )
 
 _themes[:seaborn_colorblind] = PlotTheme(
     palette = expand_palette(colorant"white", seaborn_colorblind),
-    colorgradient = cgrad(:viridis).colors,
+    colorgradient = seaborn_rocket_gradient,
 )
 
 _themes[:seaborn_colorblind6] = PlotTheme(
     palette = expand_palette(colorant"white", seaborn_colorblind6),
-    colorgradient = cgrad(:viridis).colors,
+    colorgradient = seaborn_rocket_gradient,
 )
