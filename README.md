@@ -84,6 +84,9 @@ Themes can be previewed using `Plots.showtheme(thm::Symbol)`:
 ### `:mute`
 ![theme_mute](https://user-images.githubusercontent.com/16589944/70848069-9860bf80-1e6c-11ea-9cac-8a797d526835.png)
 
+### Default seaborn theme (all credit goes to
+https://seaborn.pydata.org/index.html, https://seaborn.pydata.org/tutorial/color_palettes.html)
+
 ### `:seaborn_deep`
 ![theme_seaborn_deep](https://user-images.githubusercontent.com/24591123/78098111-17c4cf80-7419-11ea-9636-c1a45c054b31.png)
 
