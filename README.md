@@ -26,6 +26,12 @@ Currently the following themes are available:
 - `:wong2`
 - `:gruvbox_dark`
 - `:gruvbox_light`
+- `:seaborn_deep`
+- `:seaborn_bright`
+- `:seaborn_dark`
+- `:seaborn_pastel`
+- `:seaborn_muted`
+- `:seaborn_colorblind`
 
 When using Plots, a theme can be set using the `theme` function:
 ```julia
