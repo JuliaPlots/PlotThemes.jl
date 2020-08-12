@@ -11,7 +11,7 @@ dark_bg = colorant"#373E4B"
 
 _themes[:onedark] = PlotTheme(
     bg = dark_bg,
-    bginside = colorant"#30343B",
+    bginside = colorant"#282C34",
     fg = colorant"#ADB2B7",
     fgtext = colorant"#B1BED6",
     fgguide = colorant"#B1BED6",
