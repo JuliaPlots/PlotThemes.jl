@@ -1,11 +1,11 @@
 dark_palette = [
     colorant"#E06C75", # red
     colorant"#98C379", # green
-    colorant"#61AFEF"  # blue
-    colorant"#C678DD"  # purple
+    colorant"#61AFEF",  # blue
+    colorant"#C678DD",  # purple
     colorant"#E5C07B", # yellow
     colorant"#56B6C2", # teal
-    colorant"#ABB2BF", # grey
+    colorant"#ABB2BF" # grey
 ]
 dark_bg = colorant"#373E4B"
 
