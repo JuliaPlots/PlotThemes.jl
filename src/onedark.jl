@@ -1,12 +1,15 @@
 dark_palette = [
     colorant"#E06C75", # red
     colorant"#98C379", # green
-    colorant"#E5C07B", # yellow
     colorant"#61AFEF"  # blue
+    colorant"#C678DD"  # purple
+    colorant"#E5C07B", # yellow
+    colorant"#56B6C2", # teal
+    colorant"#ABB2BF", # grey
 ]
 dark_bg = colorant"#373E4B"
 
-_themes[:onedork] = PlotTheme(
+_themes[:onedark] = PlotTheme(
     bg = dark_bg,
     bginside = colorant"#30343B",
     fg = colorant"#ADB2B7",
