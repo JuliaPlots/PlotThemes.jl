@@ -1,9 +1,8 @@
-#inspired by nucleus theme for Atom
 dark_palette = [
-    colorant"#FE4365", # red
-    colorant"#eca25c", # orange
-    colorant"#3f9778", # green
-    colorant"#005D7F"  # blue
+    colorant"#E06C75", # red
+    colorant"#98C379", # green
+    colorant"#E5C07B", # yellow
+    colorant"#61AFEF"  # blue
 ]
 dark_bg = colorant"#373E4B"
 
