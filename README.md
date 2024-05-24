@@ -96,6 +96,12 @@ Themes can be previewed using `Plots.showtheme(thm::Symbol)`:
 ### `:dracula`
 ![theme_dracula](https://user-images.githubusercontent.com/64332767/136754217-31d4348a-c873-4496-8b66-905e4d8a7e36.png)
 
+### `:rose_pine`
+![theme_rose_pine]()
+
+### `:rose_pine_dawn`
+![theme_rose_pine_dawn]()
+
 ## Contributing
 A theme specifies default values for different Plots [attributes](https://docs.juliaplots.org/stable/attributes/).
 At the moment these are typically colors, palettes and colorgradients, but any Plots attribute can be controlled by a theme in general.
