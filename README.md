@@ -97,10 +97,10 @@ Themes can be previewed using `Plots.showtheme(thm::Symbol)`:
 ![theme_dracula](https://user-images.githubusercontent.com/64332767/136754217-31d4348a-c873-4496-8b66-905e4d8a7e36.png)
 
 ### `:rose_pine`
-![theme_rose_pine]()
+![theme_rose_pine](https://github.com/BaerLKR/PlotThemes.jl/assets/83340886/30c869e5-2b90-405a-bc49-cf4ef3c43d75)
 
 ### `:rose_pine_dawn`
-![theme_rose_pine_dawn]()
+![theme_rose_pine_dawn](https://github.com/BaerLKR/PlotThemes.jl/assets/83340886/e30c0b46-1be3-49f5-afc5-ceede0b0c27d)
 
 ## Contributing
 A theme specifies default values for different Plots [attributes](https://docs.juliaplots.org/stable/attributes/).
