@@ -31,6 +31,8 @@ Currently the following themes are available:
 - `:mute`
 - `:dao`
 - `:dracula`
+- `:rose_pine`
+- `:rose_pine_dawn`
 
 
 When using Plots, a theme can be set using the `theme` function:
