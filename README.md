@@ -24,6 +24,7 @@ Currently the following themes are available:
 - `:solarized_light`
 - `:wong`
 - `:wong2`
+- `:boxed`
 - `:gruvbox_dark`
 - `:gruvbox_light`
 - `:bright`
@@ -76,6 +77,9 @@ Themes can be previewed using `Plots.showtheme(thm::Symbol)`:
 
 ### `:wong2`
 ![theme_wong2](https://user-images.githubusercontent.com/16589944/70847880-eaecac80-1e69-11ea-9b59-cdf937427121.png)
+
+### `:boxed`
+![theme_boxed](https://github.com/user-attachments/assets/40454139-e34d-4c5c-8db5-31a4816bf5f5)
 
 ### `:gruvbox_dark`
 ![theme_gruvbox_dark](https://user-images.githubusercontent.com/16589944/70847882-f049f700-1e69-11ea-94f8-255f2cd17288.png)
