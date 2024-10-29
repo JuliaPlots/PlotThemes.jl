@@ -18,6 +18,7 @@ Currently the following themes are available:
 - `:ggplot2`
 - `:juno`
 - `:lime`
+- `:onedark`
 - `:orange`
 - `:sand`
 - `:solarized`
