@@ -1,6 +1,4 @@
-# WARNING
-
-https://github.com/JuliaPlots/PlotThemes.jl is now integrated into https://github.com/JuliaPlots/Plots.jl for Plots v2, please make corresponding PRs there.
+# ⚠️ WARNING: `PlotThemes` now lives in [Plots.jl](https://github.com/JuliaPlots/Plots.jl/tree/master/PlotThemes), please open issues [here](https://github.com/JuliaPlots/Plots.jl/issues) and PRs [here](https://github.com/JuliaPlots/Plots.jl/pulls). ⚠️
 
 # PlotThemes
 
